@@ -5,25 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OptimusTech</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
 </head>
-<body>
+<body class="body">
     <header class="header container">
-        <h1 class="header__logo">
-            <img src="./assets/img/logo.svg" alt="OptimusTech Logo" class="header__image">
-            <p class="header__title"></p>
-        </h1>
-        <nav class="header__navbar">
-            <ul>
-                <li class="header__nav___item">Home</li>
-                <li class="header__nav___item">Produtos</li>
-                <li class="header__nav___item">Recursos</li>
-                <li class="header__nav___item">Sobre nós</li>
-            </ul>
-        </nav>
-        <button class="header__button">Entrar</button>
-        <button class="header__button">Cadastrar</button>
+        <div class="header__left">
+            <h1 class="header__logo">
+                <img src="./assets/img/logo.svg" alt="OptimusTech Logo" class="header__image">
+                <p class="header__title">OptimusTech</p>
+            </h1>
+            <nav class="header__navbar">
+                <ul class="header__list">
+                    <li class="header__nav___item">Home</li>
+                    <li class="header__nav___item">Produtos</li>
+                    <li class="header__nav___item">Recursos</li>
+                    <li class="header__nav___item">Sobre nós</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__buttons">
+            <button class="header__button--login">Entrar</button>
+            <button class="header__button--signup">Cadastrar</button>
+        </div>
     </header>
     
 </body>

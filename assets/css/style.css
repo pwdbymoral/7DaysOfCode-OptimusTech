@@ -1,3 +1,12 @@
+:root {
+    --red: #8E2424;
+    --gray: #667085;
+}
+
 .container {
-    padding: 0 112px;
+    padding: 0 12%;
+}
+
+.body {
+    font-family: 'Inter';
 }
