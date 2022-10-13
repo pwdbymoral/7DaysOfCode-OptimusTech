@@ -1,0 +1,27 @@
+.about {
+    text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.about__span {
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.about__title {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 1.25rem;
+    padding-bottom: 2.25rem;
+    color: var(--title-color);
+}
+
+.about__text {
+    font-size: 1.25rem;
+    color: var(--text-color);
+    padding-bottom: 0.6875rem;
+    text-align: center;
+    padding: 0 15rem;
+    line-height: 150%;
+}
