@@ -1,0 +1,26 @@
+.metrics {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.metrics__metric {
+    padding-left: 2rem;
+}
+
+.metric__title {
+    color: var(--main-color);
+    font-size: 3.75rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.metric__caption {
+    font-size: 1,125;
+    color: var(--title-color);
+    padding-bottom: 1rem;
+}
+
+.metric__text {
+    color: var(--text-color);
+    line-height: 1.5;
+}
